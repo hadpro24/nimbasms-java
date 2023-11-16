@@ -26,6 +26,8 @@ If you use Maven, add the following configuration to your project's `pom.xml`
   <version>0.0.1</version>
 </dependency>
 ```
+Avant d'instancier un objet `NimbaSMSClient`, assurez-vous d'avoir les identifiants requis. Ces identifiants (ACCOUNT_SID et AUTH_TOKEN) doivent être obtenus auprès de `NimbaSMS`.
+
 ## <a name="accesToken"></a> Get your Access token
 ```java
 
